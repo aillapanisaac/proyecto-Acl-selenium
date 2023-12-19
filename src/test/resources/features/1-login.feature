@@ -11,7 +11,7 @@ Feature: CP01 - Validar inicio de sesion
       When ingresa credenciales validas
       Then la aplicacion deberia mostrar el modulo principal de productos
 
-  @InvalidCredentials
+    @InvalidCredentials
     Scenario: 2 - Validar con credenciales incorrectas
       When ingresa credenciales invalidas
       Then la aplicacion deberia mostrar un mensaje de error
